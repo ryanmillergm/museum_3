@@ -249,9 +249,9 @@ pry(main)> bob.spending_money
 pry(main)> sally = Patron.new("Sally", 20)    
 # => #<Patron:0x00007f901823c8a0...>
 
-pry(main)> sally.add_interest("IMAX")    
-
 pry(main)> sally.add_interest("Dead Sea Scrolls")    
+
+pry(main)> sally.add_interest("IMAX")    
 
 pry(main)> dmns.admit(sally)
 
