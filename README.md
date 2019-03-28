@@ -7,7 +7,7 @@
 * Complete the activity below.
 * Push your solution to your forked repo
 * Submit a pull request from your repository to this repository
-  * Put your name in your PR!
+* Put your name in your PR!
 
 ### Iteration 1
 
@@ -20,7 +20,7 @@ pry(main)> require './lib/exhibit'
 pry(main)> require './lib/patron'
 # => true
 
-pry(main)> exhibit = Exhibit.new("Gems and Minerals", 0)    
+pry(main)> exhibit = Exhibit.new("Gems and Minerals", 0)
 # => #<Exhibit:0x00007fcb13bd22d0...>
 
 pry(main)> exhibit.name
@@ -29,7 +29,7 @@ pry(main)> exhibit.name
 pry(main)> exhibit.cost
 # => 0
 
-pry(main)> bob = Patron.new("Bob", 20)    
+pry(main)> bob = Patron.new("Bob", 20)
 # => #<Patron:0x00007fcb13b5c7d8...>
 
 pry(main)> bob.name
@@ -41,9 +41,9 @@ pry(main)> bob.spending_money
 pry(main)> bob.interests
 # => []
 
-pry(main)> bob.add_interest("Dead Sea Scrolls")    
+pry(main)> bob.add_interest("Dead Sea Scrolls")
 
-pry(main)> bob.add_interest("Gems and Minerals")    
+pry(main)> bob.add_interest("Gems and Minerals")
 
 pry(main)> bob.interests
 # => ["Dead Sea Scrolls", "Gems and Minerals"]
@@ -63,7 +63,7 @@ pry(main)> require './lib/patron'
 pry(main)> require './lib/exhibit'
 # => true
 
-pry(main)> dmns = Museum.new("Denver Museum of Nature and Science")    
+pry(main)> dmns = Museum.new("Denver Museum of Nature and Science")
 # => #<Museum:0x00007fb400a6b0b0...>
 
 pry(main)> dmns.name
@@ -75,32 +75,32 @@ pry(main)> dmns.exhibits
 pry(main)> gems_and_minerals = Exhibit.new("Gems and Minerals", 0)
 # => #<Exhibit:0x00007fb400bbcdd8...>
 
-pry(main)> dead_sea_scrolls = Exhibit.new("Dead Sea Scrolls", 10)    
+pry(main)> dead_sea_scrolls = Exhibit.new("Dead Sea Scrolls", 10)
 # => #<Exhibit:0x00007fb400b851f8...>
 
-pry(main)> imax = Exhibit.new("IMAX", 15)    
+pry(main)> imax = Exhibit.new("IMAX", 15)
 # => #<Exhibit:0x00007fb400acc590...>
 
-pry(main)> dmns.add_exhibit(gems_and_minerals)    
+pry(main)> dmns.add_exhibit(gems_and_minerals)
 
-pry(main)> dmns.add_exhibit(dead_sea_scrolls)    
+pry(main)> dmns.add_exhibit(dead_sea_scrolls)
 
 pry(main)> dmns.add_exhibit(imax)
 
 pry(main)> dmns.exhibits
 # => [#<Exhibit:0x00007fb400bbcdd8...>, #<Exhibit:0x00007fb400b851f8...>]
 
-pry(main)> bob = Patron.new("Bob", 20)    
+pry(main)> bob = Patron.new("Bob", 20)
 # => #<Patron:0x00007fb400a51cc8...>
 
-pry(main)> bob.add_interest("Dead Sea Scrolls")    
+pry(main)> bob.add_interest("Dead Sea Scrolls")
 
-pry(main)> bob.add_interest("Gems and Minerals")    
+pry(main)> bob.add_interest("Gems and Minerals")
 
 pry(main)> sally = Patron.new("Sally", 20)
 # => #<Patron:0x00007fb400036338...>
 
-pry(main)> sally.add_interest("IMAX")    
+pry(main)> sally.add_interest("IMAX")
 
 pry(main)> dmns.recommend_exhibits(bob)
 # => [#<Exhibit:0x00007fb400bbcdd8...>, #<Exhibit:0x00007fb400b851f8...>]
@@ -125,23 +125,23 @@ pry(main)> require './lib/patron'
 pry(main)> require './lib/exhibit'
 # => true
 
-pry(main)> dmns = Museum.new("Denver Museum of Nature and Science")    
+pry(main)> dmns = Museum.new("Denver Museum of Nature and Science")
 # => #<Museum:0x00007fb20205d690...>
 
-pry(main)> gems_and_minerals = Exhibit.new("Gems and Minerals", 0)    
+pry(main)> gems_and_minerals = Exhibit.new("Gems and Minerals", 0)
 # => #<Exhibit:0x00007fb202238618...>
 
-pry(main)> dead_sea_scrolls = Exhibit.new("Dead Sea Scrolls", 10)    
+pry(main)> dead_sea_scrolls = Exhibit.new("Dead Sea Scrolls", 10)
 # => #<Exhibit:0x00007fb202248748...>
 
-pry(main)> imax = Exhibit.new("IMAX", 15)    
+pry(main)> imax = Exhibit.new("IMAX", 15)
 # => #<Exhibit:0x00007fb20225f8d0...>
 
-pry(main)> dmns.add_exhibit(gems_and_minerals)    
+pry(main)> dmns.add_exhibit(gems_and_minerals)
 
-pry(main)> dmns.add_exhibit(dead_sea_scrolls)    
+pry(main)> dmns.add_exhibit(dead_sea_scrolls)
 
-pry(main)> dmns.add_exhibit(imax)    
+pry(main)> dmns.add_exhibit(imax)
 
 pry(main)> dmns.patrons
 # => []
@@ -149,18 +149,18 @@ pry(main)> dmns.patrons
 pry(main)> bob = Patron.new("Bob", 20)
 # => #<Patron:0x00007fb2011455b8...>
 
-pry(main)> bob.add_interest("Dead Sea Scrolls")    
+pry(main)> bob.add_interest("Dead Sea Scrolls")
 
-pry(main)> bob.add_interest("Gems and Minerals")    
+pry(main)> bob.add_interest("Gems and Minerals")
 
-pry(main)> sally = Patron.new("Sally", 20)    
+pry(main)> sally = Patron.new("Sally", 20)
 # => #<Patron:0x00007fb20227f8b0...>
 
-pry(main)> sally.add_interest("Dead Sea Scrolls")    
+pry(main)> sally.add_interest("Dead Sea Scrolls")
 
 pry(main)> dmns.admit(bob)
 
-pry(main)> dmns.admit(sally)    
+pry(main)> dmns.admit(sally)
 
 pry(main)> dmns.patrons
 # => [#<Patron:0x00007fb2011455b8...>, #<Patron:0x00007fb20227f8b0...>]
@@ -201,44 +201,44 @@ pry(main)> require './lib/exhibit'
 pry(main)> dmns = Museum.new("Denver Museum of Nature and Science")
 # => #<Museum:0x00007f90182546f8...>
 
-pry(main)> gems_and_minerals = Exhibit.new("Gems and Minerals", 0)    
+pry(main)> gems_and_minerals = Exhibit.new("Gems and Minerals", 0)
 # => #<Exhibit:0x00007f9018a51248...>
 
-pry(main)> imax = Exhibit.new("IMAX", 15)    
+pry(main)> imax = Exhibit.new("IMAX", 15)
 # => #<Exhibit:0x00007f9018a596c8...>
 
-pry(main)> dead_sea_scrolls = Exhibit.new("Dead Sea Scrolls", 10)    
+pry(main)> dead_sea_scrolls = Exhibit.new("Dead Sea Scrolls", 10)
 # => #<Exhibit:0x00007f9019879be0...>
 
-pry(main)> dmns.add_exhibit(gems_and_minerals)    
+pry(main)> dmns.add_exhibit(gems_and_minerals)
 
-pry(main)> dmns.add_exhibit(imax)    
+pry(main)> dmns.add_exhibit(imax)
 
-pry(main)> dmns.add_exhibit(dead_sea_scrolls)    
+pry(main)> dmns.add_exhibit(dead_sea_scrolls)
 
 # This Patron is interested in two exhibits but none in their price range, so they attend none
-pry(main)> tj = Patron.new("TJ", 7)    
+pry(main)> tj = Patron.new("TJ", 7)
 # => #<Patron:0x00007f901825d9d8...>
 
-pry(main)> tj.add_interest("IMAX")    
+pry(main)> tj.add_interest("IMAX")
 
-pry(main)> tj.add_interest("Dead Sea Scrolls")    
+pry(main)> tj.add_interest("Dead Sea Scrolls")
 
-pry(main)> dmns.admit(tj)    
+pry(main)> dmns.admit(tj)
 
 pry(main)> tj.spending_money
 # => 7
 
 # This Patron is interested in two exhibits and only Dead Sea Scrolls
 # is in their price range price, so they attend Dead Sea Scrolls
-pry(main)> bob = Patron.new("Bob", 10)    
+pry(main)> bob = Patron.new("Bob", 10)
 # => #<Patron:0x00007f9018048be8...>
 
-pry(main)> bob.add_interest("Dead Sea Scrolls")    
+pry(main)> bob.add_interest("Dead Sea Scrolls")
 
-pry(main)> bob.add_interest("IMAX")    
+pry(main)> bob.add_interest("IMAX")
 
-pry(main)> dmns.admit(bob)    
+pry(main)> dmns.admit(bob)
 
 pry(main)> bob.spending_money
 # => 0
@@ -246,12 +246,12 @@ pry(main)> bob.spending_money
 # This Patron is interested in two exhibits and both are in their price range.
 # They attend the more expensive one first (IMAX), but don't have enough money to attend
 # the second one    
-pry(main)> sally = Patron.new("Sally", 20)    
+pry(main)> sally = Patron.new("Sally", 20)
 # => #<Patron:0x00007f901823c8a0...>
 
-pry(main)> sally.add_interest("Dead Sea Scrolls")    
+pry(main)> sally.add_interest("Dead Sea Scrolls")
 
-pry(main)> sally.add_interest("IMAX")    
+pry(main)> sally.add_interest("IMAX")
 
 pry(main)> dmns.admit(sally)
 
@@ -260,12 +260,12 @@ pry(main)> sally.spending_money
 
 # This Patron is interested in two exhibits and both are in their price range.
 # They have enough spending money to afford both, so they attend both.
-pry(main)> morgan = Patron.new("Morgan", 15)    
+pry(main)> morgan = Patron.new("Morgan", 15)
 # => #<Patron:0x00007f90180e0948...>
 
-pry(main)> morgan.add_interest("Gems and Minerals")    
+pry(main)> morgan.add_interest("Gems and Minerals")
 
-pry(main)> morgan.add_interest("Dead Sea Scrolls")    
+pry(main)> morgan.add_interest("Dead Sea Scrolls")
 
 pry(main)> dmns.admit(morgan)  
 
